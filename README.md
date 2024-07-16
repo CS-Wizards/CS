@@ -27,85 +27,407 @@
 
 | 주차 | 날짜 | 주제 | 당번 |
 | --- | --- | --- | --- |
-| 1 |  | Computer Architecture |  |
-| 2 |  | Computer Architecture |  |
-| 3 |  | Data Structure |  |
-| 4 |  | Data Structure |  |
-| 5 |  | Database |  |
-| 6 |  | Database |  |
-| 7 |  | Network |  |
-| 8 |  | Network |  |
-| 9 |  | Operating System |  |
-| 10 |  | Operating System |  |
-| 11 |  | Software Engineering |  |
-| 12 |  | Software Engineering |  |
-- Computer Architecture
-    - [컴퓨터 구조 기초](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0%20%EA%B8%B0%EC%B4%88.pdf)
-    - [컴퓨터의 구성](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EA%B5%AC%EC%84%B1.md)
-    - [중앙처리장치(CPU) 작동 원리](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md)
-    - [캐시 메모리](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC(Cache%20Memory).md)
-    - [고정 소수점 & 부동 소수점](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EA%B3%A0%EC%A0%95%20%EC%86%8C%EC%88%98%EC%A0%90%20%26%20%EB%B6%80%EB%8F%99%20%EC%86%8C%EC%88%98%EC%A0%90.md)
-    - [패리티 비트 & 해밍 코드](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8%20%26%20%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C.md)
-    - [ARM 프로세서](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C.md)
-- Data Structure
-    - [Array](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Array.md)
-    - [LinkedList](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Linked%20List.md)
-    - [Array & ArrayList & LinkedList](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Array%20vs%20ArrayList%20vs%20LinkedList.md)
-    - [스택(Stack) & 큐(Queue)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Stack%20%26%20Queue.md)
-    - [힙(Heap)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Heap.md)
-    - [트리(Tree)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Tree.md)
-    - [이진탐색트리(Binary Search Tree)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Binary%20Search%20Tree.md)
-    - [해시(Hash)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Hash.md)
-    - [트라이(Trie)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/Trie.md)
-    - [B-Tree & B+Tree](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Data%20Structure/B%20Tree%20%26%20B%2B%20Tree.md)
-- Database
-    - [키(Key) 정리](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%5BDB%5D%20Key.md)
-    - [SQL - JOIN](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%5BDatabase%20SQL%5D%20JOIN.md)
-    - [SQL Injection](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/SQL%20Injection.md)
-    - [SQL vs NoSQL](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/SQL%EA%B3%BC%20NOSQL%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
-    - [정규화(Normalization)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%EC%A0%95%EA%B7%9C%ED%99%94(Normalization).md)
-    - [이상(Anomaly)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%5BDB%5D%20Anomaly.md)
-    - [인덱스(INDEX)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%5BDB%5D%20Index.md)
-    - [트랜잭션(Transaction)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/Transaction.md)
-    - [트랜잭션 격리 수준(Transaction Isolation Level)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/Transaction%20Isolation%20Level.md)
-    - [저장 프로시저(Stored PROCEDURE)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%EC%A0%80%EC%9E%A5%20%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80(Stored%20PROCEDURE).md)
-    - [레디스(Redis)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/Redis.md)
-- Network
-    - [OSI 7 계층](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
-    - [TCP 3 way handshake & 4 way handshake](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/TCP%203%20way%20handshake%20%26%204%20way%20handshake.md)
-    - [TCP/IP 흐름제어 & 혼잡제어](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/TCP%20(%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4).md#tcp-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4)
-    - [UDP](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/UDP.md#20190826%EC%9B%94-bym-udp%EB%9E%80)
-    - [대칭키 & 공개키](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%20%26%20%EA%B3%B5%EA%B0%9C%ED%82%A4.md)
-    - [HTTP & HTTPS](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/HTTP%20%26%20HTTPS.md)
-    - [TLS/SSL handshake](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/TLS%20HandShake.md)
-    - [로드 밸런싱(Load Balancing)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md)
-    - [Blocking,Non-blocking & Synchronous,Asynchronous](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/%5BNetwork%5D%20Blocking%2CNon-blocking%20%26%20Synchronous%2CAsynchronous.md)
-    - [Blocking & Non-Blocking I/O](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/%5BNetwork%5D%20Blocking%20Non-Blocking%20IO.md)
-- Operating System
-    - [운영체제란](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Operation%20System.md)
-    - [프로세스 vs 스레드](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Process%20vs%20Thread.md)
-    - [프로세스 주소 공간](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Process%20Address%20Space.md)
-    - [인터럽트(Interrupt)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Interrupt.md)
-    - [시스템 콜(System Call)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/%5BOS%5D%20System%20Call%20(Fork%20Wait%20Exec).md)
-    - [PCB와 Context Switching](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/PCB%20%26%20Context%20Switcing.md)
-    - [IPC(Inter Process Communication)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/IPC(Inter%20Process%20Communication).md)
-    - [CPU 스케줄링](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/CPU%20Scheduling.md)
-    - [데드락(DeadLock)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/DeadLock.md)
-    - [Race Condition](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Race%20Condition.md)
-    - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Semaphore%20%26%20Mutex.md)
-    - [페이징 & 세그먼테이션](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Paging%20and%20Segmentation.md) ([PDF](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Paging%20and%20Segmentation.pdf))
-    - [페이지 교체 알고리즘](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Page%20Replacement%20Algorithm.md)
-    - [메모리(Memory)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/Memory.md)
-    - [파일 시스템](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/File%20System.md)
-- Software Engineering
-    - [클린코드 & 리팩토링](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/Clean%20Code%20%26%20Refactoring.md) / [클린코드 & 시큐어코딩](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C(Clean%20Code)%20%26%20%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9(Secure%20Coding).md)
-    - [TDD(Test Driven Development)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/TDD(Test%20Driven%20Development).md)
-    - [애자일(Agile) 정리1](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/%EC%95%A0%EC%9E%90%EC%9D%BC(Agile).md) / [애자일(Agile) 정리2](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/%EC%95%A0%EC%9E%90%EC%9D%BC(Agile)2.md)
-    - [객체 지향 프로그래밍(Object-Oriented Programming)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/Object-Oriented%20Programming.md)
-    - [함수형 프로그래밍(Fuctional Programming)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/Fuctional%20Programming.md)
-    - [데브옵스(DevOps)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md)
-    - [서드 파티(3rd party)란?](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/%EC%8D%A8%EB%93%9C%ED%8C%8C%ED%8B%B0(3rd%20party)%EB%9E%80.md)
-    - [마이크로서비스 아키텍처(MSA)](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md)
+| 1 | 7/24 | Java & Spring | 김성일 |
+| 2 | 7/31 | Java & Spring | https://github.com/chunghye98 |
+| 3 | 8/7 | Network | https://github.com/ranunclulus |
+| 4 | 8/14 | Network | https://github.com/InGyu-Moon |
+| 5 | 8/21 | Network, Database | https://github.com/InJun2 |
+| 6 | 8/28 | Network, Operating System | 진성일 |
+| 7 | 9/4 | Operating System | 김성일 |
+| 8 | 9/11 | Operating System | https://github.com/chunghye98 |
+| 9 | 9/25 | ETC | https://github.com/ranunclulus |
+| 10 | 10/2 |  | https://github.com/InGyu-Moon |
+| 11 | 10/16 |  | https://github.com/InJun2 |
+| 12 | 10/23 |  | 진성일 |
+- 1주차
+    
+    **JVM**
+    
+    - 그럼, 자바 말고 다른 언어는 JVM 위에 올릴 수 없나요?
+    - 반대로 JVM 계열 언어를 일반적으로 컴파일해서 사용할 순 없나요?
+    - VM을 사용함으로써 얻을 수 있는 장점과 단점에 대해 설명해 주세요.
+    - JVM과 내부에서 실행되고 있는 프로그램은 부모 프로세스 - 자식 프로세스 관계를 갖고 있다고 봐도 무방한가요?
+    
+    **final 키워드**
+    
+    - 그렇다면 컴파일 과정에서, final 키워드는 다르게 취급되나요?
+    
+    **인터페이스와 추상 클래스의 차이**
+    
+    - 왜 클래스는 단일 상속만 가능한데, 인터페이스는 2개 이상 구현이 가능할까요?
+    
+    **리플렉션**
+    
+    - 의미만 들어보면 리플렉션은 보안적인 문제가 있을 가능성이 있어보이는데, 실제로 그렇게 생각하시나요? 만약 그렇다면, 어떻게 방지할 수 있을까요?
+    - 리플렉션을 언제 활용할 수 있을까요?
+    
+    **static class와 static method**
+    
+    - static 을 사용하면 어떤 이점을 얻을 수 있나요? 어떤 제약이 걸릴까요?
+    - 컴파일 과정에서 static 이 어떻게 처리되는지 설명해 주세요.
+    
+    **Java의 Exception**
+    
+    - 예외처리를 하는 세 방법에 대해 설명해 주세요.
+    - CheckedException, UncheckedException 의 차이에 대해 설명해 주세요.
+    - 예외처리가 성능에 큰 영향을 미치나요? 만약 그렇다면, 어떻게 하면 부하를 줄일 수 있을까요?
+    
+    **Synchronized**
+    
+    - Synchronized 키워드가 어디에 붙는지에 따라 의미가 약간씩 변화하는데, 각각 어떤 의미를 갖게 되는지 설명해 주세요.
+    - 효율적인 코드 작성 측면에서, Synchronized는 좋은 키워드일까요?
+    - Synchronized 를 대체할 수 있는 자바의 다른 동기화 기법에 대해 설명해 주세요.
+    - Thread Local에 대해 설명해 주세요.
+    
+    **Java Stream**
+    
+    - Stream과 for ~ loop의 성능 차이를 비교해 주세요,
+    - Stream은 병렬처리 할 수 있나요?
+    - Stream에서 사용할 수 있는 함수형 인터페이스에 대해 설명해 주세요.
+    - 가끔 외부 변수를 사용할 때, final 키워드를 붙여서 사용하는데 왜 그럴까요? 꼭 그래야 할까요?
+- 2주차
+    
+    **Java의 GC**
+    
+    - finalize() 를 수동으로 호출하는 것은 왜 문제가 될 수 있을까요?
+    - 어떤 변수의 값이 null이 되었다면, 이 값은 GC가 될 가능성이 있을까요?
+    
+    **equals()와 hashcode()**
+    
+    - 본인이 hashcode() 를 정의해야 한다면, 어떤 점을 염두에 두고 구현할 것 같으세요?
+    - 그렇다면 equals() 를 재정의 해야 할 때, 어떤 점을 염두에 두어야 하는지 설명해 주세요.
+    
+    **IoC와 DI**
+    
+    - 후보 없이 특정 기능을 하는 클래스가 딱 한 개하면, 구체 클래스를 그냥 사용해도 되지 않나요? 그럼에도 불구하고 왜 Spring에선 Bean을 사용 할까요?
+    - Spring의 Bean 생성 주기에 대해 설명해 주세요.
+    - 프로토타입 빈은 무엇인가요?
+    
+    **DispatcherServlet**
+    
+    - 여러 요청이 들어온다고 가정할 때, DispatcherServlet은 한번에 여러 요청을 모두 받을 수 있나요?
+    - 수많은 @Controller 를 DispatcherServlet은 어떻게 구분 할까요?
+    
+    **JPA와 같은 ORM을 사용하는 이유**
+    
+    - 영속성은 어떤 기능을 하나요? 이게 진짜 성능 향상에 큰 도움이 되나요?
+    - N + 1 문제에 대해 설명해 주세요.
+    
+    **@Transactional** 
+    
+    - @Transactional(readonly=true) 는 어떤 기능인가요? 이게 도움이 되나요?
+    - 그런데, 읽기에 트랜잭션을 걸 필요가 있나요? @Transactional을 안 붙이면 되는거 아닐까요?
+    
+    **AOP**
+    
+    - @Aspect는 어떻게 동작하나요?
+    
+    **Java 에서 Annotation** 
+    
+    - 별 기능이 없는 것 같은데, 어떻게 Spring 에서는 Annotation 이 그렇게 많은 기능을 하는 걸까요?
+    - Lombok의 @Data를 잘 사용하지 않는 이유는 무엇일까요?
+    
+    **Tomcat**
+    
+    - 혹시 Netty에 대해 들어보셨나요? 왜 이런 것을 사용할까요?
+- 3주차
+    
+    **HTTP에 대해 설명해 주세요.**
+    
+    - 공개키와 대칭키
+    - HTTPS Handshake 과정에서는 인증서 사용 이유
+    - SSL과 TLS의 차이
+    
+    **웹소켓과 소켓 통신의 차이**
+    
+    - 소켓과 포트의 차이
+    - 여러 소켓이 있다고 할 때, 그 소켓의 포트 번호는 모두 다른가
+    - 사용자의 요청이 무수히 많아지면, 소켓도 무수히 생성되는지
+    
+    **TCP와 UDP**
+    
+    - Checksum
+    - TCP와 UDP 중 Checksum을 수행하는 프로토콜
+    - Checksum을 통해 오류를 정정 가능 유무
+    - TCP가 신뢰성을 보장하는 방법
+    - TCP의 혼잡 제어 처리 방법
+    - HTTP는 TCP를 사용하는 이유
+    - 브라우저가 서버가 TCP를 쓰는지 UDP를 쓰는지 어떻게 알 수 있는 방법
+    - 본인이 새로운 통신 프로토콜을 TCP나 UDP를 사용해서 구현한다고 하면, 프로토콜 선택 기준
+    
+    **DHCP**
+    
+    - DHCP는 몇 계층 프로토콜
+    - DHCP의 동작 방법
+    - DHCP에서 UDP를 사용하는 이유
+    - DHCP에서, IP 주소 말고 추가로 제공해주는 정보
+    - DHCP의 유효기간
+    
+    **IP 주소는 무엇이며, 어떤 기능을 하고 있나요?**
+    
+    - IPv4와 IPv6의 차이
+    - 수많은 공유기에서는 고정 주소를 제공하는 기능의 동작 방법
+    - IPv4를 사용하는 장비와 IPv6를 사용하는 같은 네트워크 내에서 통신하는 방법
+    - IP가 송신자와 수신자를 정확하게 전송되는 것의 보장 유무
+    - IPv4에서 수행하는 Checksum과 TCP에서 수행하는 Checksum의 차이
+    - TTL(Hop Limit)
+    - IP 주소와 MAC 주소의 차이
+- 4주차
+    
+    **OSI 7계층**
+    
+    - Transport Layer와, Network Layer의 차이
+    - L3 Switch와 Router의 차이
+    - Layer는 패킷 명칭
+    - 각각의 Header의 Packing Order
+    - ARP
+    
+    **3-Way Handshake**
+    
+    - ACK, SYN 같은 정보 전달 방식
+    - 2-Way Handshaking 를 하지 않는 이유
+    - 두 호스트가 동시에 연결을 시도했을 때 통신 연결 수행 방법
+    - SYN Flooding 에 대해 설명
+    
+    [**www.github.com을](http://www.github.xn--com-of0o/) 브라우저에 입력하고 엔터를 쳤을 때, 네트워크 상 어떤 일이 일어나는지** 
+    
+    - DNS 쿼리를 통해 얻어진 IP가 가리키는 곳
+    - Web Server와 Web Application Server의 차이
+    - URL, URI, URN의 차이
+    
+    **DNS**
+    
+    - DNS는 몇 계층 프로토콜
+    - UDP와 TCP 중 사용하는 프로토콜
+    - DNS Recursive Query, Iterative Query
+    - DNS 쿼리 과정에서 손실이 발생할 경우 처리 방법
+    - 캐싱된 DNS 쿼리가 잘못 될 경우 에러 보장 방법
+    - DNS 레코드 타입 중 A, CNAME, AAAA의 차이
+    - hosts 파일의 역할과  DNS와 비교하였을 때 우선순위
+    
+    **Stateless와 Connectionless**
+    
+    - HTTP는 Stateless 구조를 채택 이유
+    - Connectionless의 성능 해결 방법
+    - TCP의 keep-alive와 HTTP의 keep-alive의 차이
+    
+    **라우터 내의 포워딩 과정**
+    
+    - 라우팅과 포워딩의 차이
+    - 라우팅 알고리즘
+    - 포워딩 테이블의 구조
+- 5주차
+    
+    **로드밸런서**
+    
+    - L4 로드밸런서와, L7 로드밸런서의 차이
+    - 로드밸런서 알고리즘
+    - 로드밸런싱 대상이 되는 장치중 일부 장치가 문제가 생겨 접속이 불가능할 경우, 로드밸런서가 해당 장비로 요청을 보내지 않도록 하는 방법
+    - 로드밸런서 장치를 사용하지 않고, DNS를 활용해서 유사하게 로드밸런싱을 하는 방법
+    
+    **서브넷 마스크와 게이트웨이**
+    
+    - NAT
+    - 서브넷 마스크의 표현 방식
+    
+    **트랜잭션과 ACID 원칙**
+    
+    - ACID 원칙 중, Durability를 DBMS가 보장하는 방법
+    - 읽기에는 트랜잭션을 걸지 않아도 되는지
+    
+    **트랜잭션 격리 레벨**
+    
+    - 모든 DBMS가 4개의 레벨을 모두 구현하는지
+    - 만약 MySQL을 사용하고 있다면, (InnoDB 기준) Undo 영역과 Redo 영역
+    - 스토리지 엔진
+    
+    **인덱스**
+    
+    - 일반적으로 인덱스는 수정이 잦은 테이블에선 사용하지 않기를 권하는 이유
+    - ORDER BY/GROUP BY 연산의 동작 과정을 인덱스의 존재 여부와 연관지어서 설명
+    - 기본키는 인덱스라고 할 수 있을까요? 그렇지 않다면, 인덱스와 기본키의 차이
+    - 외래키와 인덱스의 차이
+    - 인덱스가 데이터의 물리적 저장에 미치는 영향과 데이터가 저장되는 방식
+    - RDB와 NoSQL (ex. Redis, MongoDB 등) 인덱스 차이
+    
+    **정규화**
+    
+    - 정규화를 하지 않을 경우, 발생할 수 있는 이상현상에 대해 설명해 주세요.
+    - 각 정규화에 대해, 그 정규화가 진행되기 전/후의 테이블의 변화에 대해 설명해 주세요.
+    - 정규화가 무조건 좋은가요? 그렇지 않다면, 어떤 상황에서 역정규화를 하는게 좋은지
+    
+    **DB Locking**
+    
+    - Optimistic Lock/Pessimistic Lock에 대해 설명해 주세요.
+    - 물리적인 Lock을 건다면, 만약 이를 수행중인 요청에 문제가 생겨 비정상 종료되면 Lock이 절대 해제되지 않는 문제가 생길 수도 있을 것 같습니다. DB는 이를 위한 해결책이 있나요? 없다면, 우리가 이 문제를 해결할 수 없을까요?
+    
+    **DB의 Connection Pool**
+    
+    - DB와 Client가 Connection을 어떻게 구성하는지 설명해 주세요.
+    
+    **Table Full Scan, Index Range Scan**
+    
+    - 가끔은 인덱스를 타는 쿼리임에도 Table Full Scan 방식으로 동작하는 경우가 있습니다. 왜 그럴까요?
+    - COUNT (개수를 세는 쿼리) 는 어떻게 동작하나요? COUNT(1), COUNT(*), COUNT(column) 의 동작 과정
+- 6주차
+    
+    **세그멘테이션과 페이징의 차이점은 무엇인가요?**
+    
+    - 페이지와 프레임의 차이
+    - 내부 단편화와, 외부 단편화
+    - 페이지에서 실제 주소 가져오는 방법
+    
+    **동기와 비동기, 블로킹과 논블로킹의 차이**
+    
+    - 동기이면서 논블로킹이고, 비동기이면서 블로킹인 경우의 의미
+    - I/O 멀티플렉싱에
+    - 논블로킹 I/O를 수행한다고 하면 결과 수신 방법
+    
+    **쿠키와 세션의 차이에 대해 설명**
+    
+    - 세션 방식의 로그인 과정
+    - HTTP의 특성인 Stateless
+    - Stateless의 의미를 살펴보면, 세션은 적절하지 않은 인증 방법이지 않은지
+    - 규모가 커져 서버가 여러 개가 됐을 때 세션 관리 방법
+    
+    **HTTP 응답코드에 대해 설명해 주세요.**
+    
+    - 401 (Unauthorized) 와 403 (Forbidden)의 의미적인 차이
+    - 200 (ok) 와 201 (created) 의 차이
+    - 필요하다면 저희가 직접 응답코드를 정의해서 사용할 수 있는지
+    
+    **HTTP Method 에 대해 설명해 주세요.**
+    
+    - HTTP Method의 멱등성
+    - GET과 POST의 차이
+    - POST와 PUT, PATCH의 차이
+    - HTTP 1.1 이후로, GET에도 Body에 데이터를 실을 수 있게 되었음에도 왜 아직도 이런 방식을 지양하는가
+- 7주차
+    
+    **시스템 콜**
+    
+    - socket(), bind(), listen(), accept()
+    - 시스템 콜의 실행 과정
+    - 유저 모드 vs 커널 모드
+    
+    **인터럽트**
+    
+    - 하드웨어 인터럽트 vs 소프트웨어 인터럽트
+    - 인터럽트 처리 방식
+    - Polling 방식
+    - 동시에 두 개의 인터럽트가 발생한다면?
+    
+    **프로세스**
+    
+    - 프로세스  vs 스레드
+    - PCB
+    - 리눅스에서 프로세스와 스레드의 생성 방법
+    - 데몬 프로세스
+    - 자식 프로세스가 상태를 알리지 않고 죽거나 부모 프로세스가 먼저 소멸된다면?
+    - 리눅스에서 프로세스 트리의 루트 노드에 위치하는 프로세스
+    
+    **프로세스 주소 공간**
+    
+    - 초기화하지 않은 변수가 저장되는 곳
+    - Stack과 Heap의 크기와 크기가 결정되는 순간
+        - 개발자가 아닌 사용자가 이 크기를 결정할 수 있는지
+    - Stack과 Heap 중 접근이 더 빠른 곳
+    - 공간을 분할하는 이유
+    - 스레드의 주소 공간
+    - "스택"영역과 "힙"영역은 정말 자료구조의 스택/힙과 연관?
+    - IPC의 Shared Memory 기법은 프로세스 주소 공간 중 들어가는 곳
+- 8주차
+    
+    **스케쥴러**
+    
+    - 단기, 중기, 장기 스케쥴러와 현재 사용하는 스케쥴러
+    - 프로세스의 스케쥴링 상태
+    - preemptive/non-preemptive 에서 존재할 수 없는 상태
+    - Memory가 부족할 경우, Process의 상태 변화
+    
+    **컨텍스트 스위칭**
+    
+    - 컨텍스트 스위칭이 발생했을 때 프로세스와 스레드의 차이
+    - 컨텍스트 스위칭이 발생할 때, 기존의 프로세스 정보가 커널스택에 저장되는 형식
+    - 컨텍스트 스위칭이 발생하는 시점
+    
+    **프로세스 스케쥴링 알고리즘**
+    
+    - RR을 사용할 때, Time Slice에 따른 trade-off
+    - 싱글 스레드 CPU 에서 상시로 돌아가야 하는 프로세스가 있을 때 사용하는 스케쥴링 알고리즘
+    - 동시성 vs 병렬성
+    - 타 스케쥴러와 비교하여, Multi-level Feedback Queue가 해결하는 문제점
+    - 스레드의 스케줄링 알고리즘
+    
+    **데드락**
+    
+    - 데드락이 동작하기 위한 4가지 조건
+    - 조건이 충족되지 않았을 때 데드락이 작동하지 않는 이유
+    - 데드락 예방 방법
+    - 현대 os가 데드락을 처리하지 않는 이유
+    
+    **프로그램이 컴파일되어 실행되는 과정**
+    
+    - 링커 vs 로더
+    - 컴파일 언어 vs 인터프리터 언어
+    
+    **캐시 메모리 및 메모리 계층성에 대해 설명해 주세요.**
+    
+    - 캐시 메모리의 위치
+    - L1, L2 캐시에 대해 설명해 주세요.
+    - 캐시에 올라오는 데이터는 관리법
+    - 캐시간의 동기화
+    - 캐시 메모리의 Mapping 방식
+    - 캐시의 지역성
+    - 캐시의 지역성을 기반으로, 이차원 배열을 가로/세로로 탐색했을 때의 성능 차이
+    
+    **가상 메모리란 무엇인가요?**
+    
+    - 가상 메모리가 가능한 이유
+    - Page Fault가 발생했을 때 처리법
+    - 페이지 크기에 대한 Trade-Off
+    - 페이지 크기가 커지면, 페이지 폴트가 더 많이 발생하는가
+    - 세그멘테이션 방식을 사용하고 있다면, 가상 메모리를 사용할 수 없는가
+- 9주차
+    
+    **가상화가 무엇이고, 이것이 가상머신과 어떠한 차이가 있는지 설명해 주세요.**
+    
+    - 그렇다면 Docker는 둘 중 어디에 속하나요? 왜 사람들이 Docker를 많이 채택할까요?
+    - 하나의 Host OS에서 돌아간다면 충분히 한 컨테이너가 다른 컨테이너에 간섭할 수 있는 위험이 있지 않을까요? 이를 어떻게 방어할 수 있을까요?
+    - Docker 위에 Docker를 올릴 순 없을까요?
+    
+    **CI/CD**
+    
+    **static 키워드**
+    
+    - 컴파일 할 때, static 키워드가 붙은 변수, 함수는 어떻게 처리되나요?
+    - Java에서 static과 static final은 어떤 차이를 갖나요? final과 static final은요?
+    
+    **객체지향 프로그래밍**
+    
+    - SOLID 원칙에 대해 설명해 주세요.
+    - 다형성이 무엇인지 설명하고, 동적 다형성과 정적 다형성이 무엇인지 설명해 주세요.
+    - 오버로딩과 오버라이딩의 차이에 대해 설명해 주세요.
+    - 클래스가 있는 언어는 반드시 객체지향 언어라고 할 수 있을까요? 그 반대는 성립하나요?
+    
+    **프레임워크와 라이브러리의 차이**
+    
+    **Call By Value와 Call By Reference의 차이를 본인의 언어를 기반으로 설명**
+    
+    **순수함수가 무엇인지를 함수형 프로그래밍 매커니즘과 연관지어 설명해 주세요.**
+    
+    - Side Effect가 무엇인가요? 이를 모두 없애는 프로그래밍이 이상적이라고 할 수 있을까요?
+    - 왜 함수형 프로그래밍 매커니즘을 사용한다고 생각하시나요?
+    - 순수함수는 Thread Safe 한가요? 왜 그럴까요?
+    - 고차함수에 대해 설명해 주세요.
+    
+    **MVC 패턴**
+    
+    **인증과 인가의 차이**
+    
+- 10주차
+- 11주차
+- 12주차
 
 ## 🍈 명예의 전당
 
