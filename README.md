@@ -27,15 +27,15 @@
 
 | 주차 | 날짜 | 주제 | 당번 |
 | --- | --- | --- | --- |
-| 1 | 7/24 | Java & Spring | 김성일 |
+| 1 | 7/24 | Java & Spring | [조희수](https://github.com/ranunclulus) |
 | 2 | 7/31 | Java & Spring | [정혜선](https://github.com/chunghye98) |
-| 3 | 8/7 | Network | [조희수](https://github.com/ranunclulus) |
+| 3 | 8/7 | Network | 김성일 |
 | 4 | 8/14 | Network | [문인규](https://github.com/InGyu-Moon) |
 | 5 | 8/21 | Network, Database | [황인준](https://github.com/InJun2) |
 | 6 | 8/28 | Network, Operating System | 진성일 |
-| 7 | 9/4 | Operating System | 김성일 |
+| 7 | 9/4 | Operating System | [조희수](https://github.com/ranunclulus) |
 | 8 | 9/11 | Operating System | [정혜선](https://github.com/chunghye98) |
-| 9 | 9/25 | ETC | [조희수](https://github.com/ranunclulus)s |
+| 9 | 9/25 | ETC | 김성일 |
 | 10 | 10/2 |  | [문인규](https://github.com/InGyu-Moon) |
 | 11 | 10/16 |  | [황인준](https://github.com/InJun2) |
 | 12 | 10/23 |  | 진성일 |
