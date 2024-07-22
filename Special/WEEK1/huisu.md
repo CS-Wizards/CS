@@ -1,4 +1,4 @@
-=# JVM의 동작 방식
+# JVM의 동작 방식
 ![Untitled.png](img%2FUntitled.png)
 
 Java의 가장 큰 특징 중 하나는 **Write Once Run Anywhere**이다. 즉 한 번 쓰면 어디서든 실행 가능하도록 하는 것이다. 하지만 우리가 사용하는 컴퓨터는 CPU마다 받아들이는 기계어가 다르다는 문제점을 가진다. Java는 이러한 문제점을 해결하기 위해 JVM이라는 가상 머신을 띄워서 프로그램을 실행시킨다. JVM은 자바에서만 사용하는 것은 아니다. C++을 Java Bytecode로 번역해서 JVM 위에서 실행시키는 Kotlin 등을 예시로 들 수 있다. 그렇다면 JVM의 동작 방식은 어떻게 될까?
