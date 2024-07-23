@@ -34,8 +34,3 @@
 - [Java Stream 정리](https://github.com/InJun2/TIL/blob/main/Stack/Java/Stream.md)
 
 <br>
-
-### Stream과 for ~ loop의 성능 차이를 비교해 주세요,
-- [Stream 정리](https://github.com/InJun2/TIL/blob/main/Stack/Java/Stream.md)
-
-<br>
