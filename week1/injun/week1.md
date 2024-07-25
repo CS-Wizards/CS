@@ -10,6 +10,9 @@
 
 <br>
 
+### Interface vs Abstract Class
+- [인터페이스 vs 추상메서드 정리](https://github.com/InJun2/TIL/blob/main/Stack/Java/Interface-Abstract_Class.md)
+
 ### 리플렉션
 - [리플렉션 정리](https://github.com/InJun2/TIL/blob/main/Stack/Java/Reflection.md)
 
