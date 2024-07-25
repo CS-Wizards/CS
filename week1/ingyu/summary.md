@@ -310,6 +310,7 @@ public class Child(){
 - static method는 인스턴스 멤버(인스턴스 변수, 인스턴스 메소드)를 사용할 수 없다
     - 인스턴스 멤버를 사용하려면 객체 생성이 필요하기 때문에
     - static은 항상 호출이 가능해야 한다 하지만 객체 생성이 필요할 경우, 객체가 있는지 없을지 모르기 때문이다.
+    - 정확히는 static method에서 해당 인스턴스를 생성하면 인스턴스 맴버를 사용할 수 있다(하지만 비효율적임)
 
 ### static class
 
@@ -491,9 +492,9 @@ public class CustomException extends RuntimeException {
 - 예외처리를 하는 세 방법에 대해 설명해 주세요.
     
     <aside>
-    💡 1. 예외 복구
-    2. 예외 처리 회피
-    3. 예외 전환
+    💡 1. try~catch (finally) 
+    2. throws
+    3. 사용자 정의 예외
     
     </aside>
     
