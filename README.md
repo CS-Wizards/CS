@@ -433,7 +433,7 @@
 
 | 주차 | 베스트 워크북 | 딥다이브 |
 | --- | --- | --- |
-| 1 |  | [JVM](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK1/huisu.md) |
+| 1 | [조희수](https://github.com/CS-Wizards/CS/blob/main/week1/huisu/summary.md) | [JVM](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK1/huisu.md) |
 | 2 |  |  |
 | 3 |  |  |
 | 4 |  |  |
