@@ -438,7 +438,8 @@ Java 8부터 추가된 기술로 람다를 이용해 배열과 컬렉션을 함�
 __참고__<br/>
 [Java Stream API는 왜 for-loop보다 느릴까?](https://sigridjin.medium.com/java-stream-api%EB%8A%94-%EC%99%9C-for-loop%EB%B3%B4%EB%8B%A4-%EB%8A%90%EB%A6%B4%EA%B9%8C-50dec4b9974b)
 
-## Stream은 병렬처리 할 수 있나요?할 수 있습니다. 개발자가 직접 스레드를 생성할 필요 없이 parallelStream()만 사용하면 작업들을 분할 가능한 만큼 쪼개고, 쪼개진 작업들을 thread를 통해 작업 후 결과를 합치는 과정으로 결과를 만들어 냅니다.
+## Stream은 병렬처리 할 수 있나요?
+할 수 있습니다. 개발자가 직접 스레드를 생성할 필요 없이 parallelStream()만 사용하면 작업들을 분할 가능한 만큼 쪼개고, 쪼개진 작업들을 thread를 통해 작업 후 결과를 합치는 과정으로 결과를 만들어 냅니다.
 __참고__<br/>
 [[Java] 병렬 스트림(ParallelStream) 사용 방법 및 주의사항출처: https://dev-coco.tistory.com/183 [슬기로운 개발생활:티스토리]](https://dev-coco.tistory.com/183)
 
