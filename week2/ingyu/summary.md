@@ -11,11 +11,11 @@ Java의 메모리 관리 방법으로 JVM의 Heap 영역에 동적으로 할당�
 ### GC의 장단점
 
 - 장점
-    - 메모리 누수를 방지 할 수 있다.
-    - 이미 해제한 메모리를 다시 해체하거나, 해제한 메모리에 다시 접근하는 등의 오류를 방지 할 수 있다.
+  - 메모리 누수를 방지 할 수 있다.
+  - 이미 해제한 메모리를 다시 해체하거나, 해제한 메모리에 다시 접근하는 등의 오류를 방지 할 수 있다.
 - 단점
-    - 개발자 입장에서 메모리가 언제 해제 되는지 알 수 가 없다.
-    - 오버헤드로 인한 성능 저하가 발생 할 수 있다.
+  - 개발자 입장에서 메모리가 언제 해제 되는지 알 수 가 없다.
+  - 오버헤드로 인한 성능 저하가 발생 할 수 있다.
 
 ### GC의 대상
 
@@ -25,7 +25,39 @@ Java의 메모리 관리 방법으로 JVM의 Heap 영역에 동적으로 할당�
 
 ![Untitled](./img/Untitled.png)
 
-### GC 알고리즘, GC 동작 과정, Stop The World
+### GC 알고리즘
+
+GC의 대표적인 알고리즘에는 Reference Counting, Mark and Sweep이 있다.
+
+![Untitled](./img/gc1.png)
+
+**Reference Counting**은 Reference Count라는 숫자가 존재하는데 이는 몇가지 방법으로 해당 객체에 접근 가능한지를 의미한다. Reference Counting은 Reference Count를 계산해서 접근할수 있는 방법이 없으면 즉, **Reference Count값이 0이라면 GC 대상이 된다**.
+
+하지만 **Reference Counting은 순환 참조라는 문제**가 발생할 수 있다.
+
+![Untitled](./img/gc2.png)
+
+위와 같이 서로가 서로를 참조하고 있기 때문에 Root Space와의 연결이 끊겨도 Reference Count값이 1로 유지 되기 때문에 메모리가 해제되지 못하고 메모리 누수가 발생한다.
+
+Mark and Sweep은 이러한 순환참조 문제를 해결할수있다.
+
+![Untitled](./img/gc3.png)
+
+Mark and Sweep은 Root Space에서 순회를 통해 연결된 객체를 찾아내고 연결이 안되어있는 나머지 객체들을 지우는 방식이다. 이후 Compaction을 통해 Heap 영역을 정리해준다.
+
+**Mark and Sweep**은 **순환 참조 문제를 해결**할 수 있다는 장점이 있지만, **의도적으로 GC를 실행** 시켜야 하고 이 과정에서 GC에게 컴퓨터 리소스를 할당 해야 하며 성능 저하가 생길 수 있다.
+
+### GC 동작 과정
+
+GC는 JVM의 Heap 영역에서 일어나는데, JVM의 Heap영역은 Young generation과 Old generation으로 나누어 지고 Young generation은 Eden, Survival0, Survival1 으로 나누어 지는데...
+
+### Stop The World
+
+GC를 수행하기 위해 JVM이 프로그램 실행을 멈추는 현상을 의미한다.
+
+GC를 진행하는 쓰레드를 제외한 모든 쓰레는 멈추게되어 서비스 이용에 차질을 줄수있다.
+
+따라서 STW를 최소화 시켜야한다.
 
 ### finalize()
 
@@ -41,20 +73,17 @@ finalize() 메서드는 Object 클래스에 정의되어 있는 메서드로, �
 finalize()를 오버라이딩한 객체는 큐로 이동되고 별도의 finalize 스레드가 해당 큐를 정리하면서 각 객체마다 정의된 finalize() 메서드를 호출하고 finalize가 종료되면 해당 객체는 진짜 GC에 의해 제거
 
 - finalize() 를 수동으로 호출하는 것은 왜 문제가 될 수 있을까요?
-    
     <aside>
     💡 finalize()은 JVM에서 자동으로 호출되도록 설계되었기 때문에 수동으로 호출할 경우 중복으로 호출될 수도 있으며 예상치 못한 동작이 발생하는 등의 다양한 부작용이 발생할 수도 있다. ( 또한 finalize()은 JDK 9 버전에서 Deprecated 됨 )
     
     </aside>
-    
+
 - 어떤 변수의 값이 null이 되었다면, 이 값은 GC가 될 가능성이 있을까요?
-    
     <aside>
     💡 GC는 현재 참조되고 있지 않은 UnReachable 한 객체를 제거한다.
     어떤 변수의 값이 null이 되었다는 것은 해당 변수가 더 이상 객체를 참조하지 않고 있다는 것이다. 하지만 null이 된 해당 변수 외에 다른 변수가 해당 객체를 참조하고 있다면 해당 객체는 아직 Reachable 한 객체이므로 GC의 대상이 되지 않는다.
     
     </aside>
-    
 
 ## **equals()와 hashcode()**
 
@@ -96,7 +125,6 @@ RunTime에 유일한 integer값을 반환한다.
 3. 두 객체가 equals 메서드로 동등하지 않다면 반드시 해시 코드가 다를 필요는 없다.
 
 - 본인이 hashcode()를 정의해야 한다면, 어떤 점을 염두에 두고 구현할 것 같으세요?
-    
     <aside>
     💡 1. equals 메서드가 재정의 되었는지 
     (equals가 재정의되지 않았다면 hashCode도 재정의 할 필요가 없다)
@@ -108,16 +136,14 @@ RunTime에 유일한 integer값을 반환한다.
     요약: equals가 재정의 되었는지, equals에서 어떤 데이터는 비교하고 어떤 데이터는 비교하지 않는지
     
     </aside>
-    
+
 - 그렇다면 equals()를 재정의 해야 할 때, 어떤 점을 염두에 두어야 하는지 설명해 주세요.
-    
     <aside>
     💡 1. hashCode()를 재정의 했는지
     (hashCode와 마찬가지로 equals재정의시 hashCode를 재정의 했는지 확인해야한다.)
     2. 어떤 필드값을 비교할것인지
     
     </aside>
-    
 
 ## **IoC와 DI**
 
@@ -159,16 +185,14 @@ DI(Dependenct Injection)란?
 ![Untitled](./img/Untitled%201.png)
 
 - 후보 없이 특정 기능을 하는 클래스가 딱 한 개하면, 구체 클래스를 그냥 사용해도 되지 않나요? 그럼에도 불구하고 왜 Spring에선 Bean을 사용 할까요?
-    
     <aside>
     💡 구체 클래스를 사용해도되지만,
     단순히 객체를 생성하고 사용하는 것을 넘어서, 의존성 주입, 빈 생명주기 관리, 스코프 관리, AOP 지원, 모듈화, 테스트 용이성 등 다양한 이점을 제공하며
     이러한 기능들을 통해 유연성, 유지 보수성, 높은 확장성 등 다양한 이점이 있다.
     
     </aside>
-    
+
 - Spring의 Bean 생성 주기에 대해 설명해 주세요.
-    
     <aside>
     💡 1. 컨테이너에서 설정파일과 어노테이션을 통해 빈을 정의한다.
     2. 컨테이너에서 정의된 내용을 바탕으로 빈의 인스턴스를 생성한다. (메모리 할당)
@@ -178,13 +202,11 @@ DI(Dependenct Injection)란?
     6. 어플리케이션이 종료되거나 빈이 더 이상 필요가 없으면 해당 빈을 소멸한다.
     
     </aside>
-    
+
 - 프로토타입 빈은 무엇인가요?
-    
     <aside>
     💡 프로토타입 빈은 @Scope("prototype")를 통해 선언할 수 있다. 프로토타입 빈은 컨테이너에 빈에 대한 요청이 들어올때 마다 다른 인스턴스를 반환한다. (즉, 싱글톤으로 관리되는 빈이 아니다) 따라서 자신만의 상태를 가질 수 있다. (빈의 독립성 보장, 병렬처리와 스레드 안정성, 테스트 용이성)    
     </aside>
-    
 
 ## **DispatcherServlet**
 
@@ -206,19 +228,16 @@ web.xml 파일을 통해 서블릿과 그 매핑 URL을 정의할 수 있다. �
 ![Untitled](./img/Untitled%202.png)
 
 - 여러 요청이 들어온다고 가정할 때, DispatcherServlet은 한번에 여러 요청을 모두 받을 수 있나요?
-    
     <aside>
     💡 DispatcherServlet은 서블릿 컨테이너 내에서 동작하고, 서블릿 컨테이너(Tomcat)가 멀티쓰레딩을 지원하기 때문에 가능하다. (쓰레드풀 사용)
     
     </aside>
-    
+
 - 수많은 @Controller 를 DispatcherServlet은 어떻게 구분 할까요?
-    
     <aside>
     💡 HandlerMapping을 통해 @RequestMapping을 기반으로 요청을 처리한 컨트롤러 메서드를 찾는다.
     
     </aside>
-    
 
 ## **JPA와 같은 ORM을 사용하는 이유**
 
@@ -230,7 +249,7 @@ JPA는 자바에서 사용하는 ORM(Object Relational Mapping) 기술 표준이
 
 즉, JPA는 인터페이스이지 특정 기능을 제공하는 라이브러리가 아니다.
 
- JPA를 사용하려면 JPA를 구현한 ORM 프레임워크를 사용해야한다. 대표적인 JPA 구현체는 Hibernate, OpenJPA, EclipseLink등이 있다
+JPA를 사용하려면 JPA를 구현한 ORM 프레임워크를 사용해야한다. 대표적인 JPA 구현체는 Hibernate, OpenJPA, EclipseLink등이 있다
 
 **ORM이란?**
 
@@ -249,15 +268,13 @@ ORM 은 Object-Relational Mapping 의 약자로, 객체와 관계형 데이터�
 개발에서 영속성은 상태와 상관 없도록 물리적인 저장소를 이용해 데이터를 저장하는 행위를 의미한다.
 
 - 영속성은 어떤 기능을 하나요? 이게 진짜 성능 향상에 큰 도움이 되나요?
-    
     <aside>
     💡 영속성은 자동 동기화, 캐싱, 지연로딩, 트랜잭션 관리 등 다양한 기능을 한다.
     이를 통해 데이터베이스 접근과 트랜잭션 내 작업을 최소화 해서 성능을 향상 시킨다.
     
     </aside>
-    
+
 - N + 1 문제에 대해 설명해 주세요.
-    
     <aside>
     💡 연간관계로 인해 발생하는 문제로 엔티티를 조회할때 한번의 쿼리로 해결할 수 있지만 여러번의 쿼리를 실행해 성능저하가 발생하는 문제를 말한다.
     
@@ -267,7 +284,6 @@ ORM 은 Object-Relational Mapping 의 약자로, 객체와 관계형 데이터�
     해결 방안으로는  Fetch Join, EntityGraph, Batch Size 등이 있다.
     
     </aside>
-    
 
 ## **@Transactional**
 
@@ -286,7 +302,6 @@ ORM 은 Object-Relational Mapping 의 약자로, 객체와 관계형 데이터�
 JDBC 환경에서 수동 커밋과 비슷하지만 수동커밋의 경우 try catch를 통해 exception을 잡아서 rollback하는 코드를 작성해야하지만 @Transactional은 예외가 발생하면 자동으로 rollback을 해준다. (편리하다)
 
 - @Transactional(readonly=true) 는 어떤 기능인가요? 이게 도움이 되나요?
-    
     <aside>
     💡 @Transactional(readonly=true)는 해당 어노테이션을 읽기 전용으로 수행한다.
     1. 읽기 전용은 데이터 수정이 없기 때문에 경량화 된 락을 사용할 수 있다
@@ -296,9 +311,8 @@ JDBC 환경에서 수동 커밋과 비슷하지만 수동커밋의 경우 try ca
     5. 가독성 증가
     
     </aside>
-    
+
 - 그런데, 읽기에 트랜잭션을 걸 필요가 있나요? @Transactional을 안 붙이면 되는거 아닐까요?
-    
     <aside>
     💡 위의 장점들이 있기때문에
     
