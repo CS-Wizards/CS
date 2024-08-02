@@ -119,6 +119,7 @@
     - @Transactional(readonly=true) 는 어떤 기능인가요? 이게 도움이 되나요?
     - 그런데, 읽기에 트랜잭션을 걸 필요가 있나요? @Transactional을 안 붙이면 되는거 아닐까요?
 - 3주차
+  
     **AOP**
     
     - @Aspect는 어떻게 동작하나요?
