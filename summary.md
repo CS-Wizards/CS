@@ -35,6 +35,10 @@ Netty는 자바 네트워크 프레임워크로, 네트워크 프로그래밍을
 ## 7. SSL과 TLS의 차이
 - **SSL**: 안전하고 암호화된 통신 채널을 만듬, 일부 결점이 있음
 - **TLS**: SSL의 결점을 보완하여 더 빠르고 안전한 통신 제공
+- 무결성을 확인하기 위해 MAC를 사용 SSL은 MD5 TLS는 HMAC
+![image](https://github.com/user-attachments/assets/21804137-fb70-47ef-aab1-aa8c6ca19c93)
+  
+![image](https://github.com/user-attachments/assets/a8a50086-d0f8-4da1-94df-f7c81329f83a)
 
 ## 8. 소켓과 포트의 차이
 - **소켓**: 네트워크에서 두 디바이스의 출발점과 시작점
