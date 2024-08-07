@@ -2,7 +2,7 @@
 
 ### Aspect-Oriented Programming
 
-[https://velog.velcdn.com/images/kai6666/post/af28f068-5fce-47ef-9632-43f9c32779cb/image.png](https://velog.velcdn.com/images/kai6666/post/af28f068-5fce-47ef-9632-43f9c32779cb/image.png)
+![https://velog.velcdn.com/images/kai6666/post/af28f068-5fce-47ef-9632-43f9c32779cb/image.png](https://velog.velcdn.com/images/kai6666/post/af28f068-5fce-47ef-9632-43f9c32779cb/image.png)
 
 > **AOP(Aspect-Oriented Programming)**
 관점 지향 프로그래밍으로, 관점을 기준으로 다양한 기능을 분리하여 보는 프로그래밍. 관점이란 부가 기능과 그 적용처를 정의하고 합쳐서 모듈로 만든 것이다.
@@ -21,16 +21,16 @@
     - 이외의 핵심 기능은 원래의 구현체인 OrderService에게 넘김
 - Proxy 를 만드는 첫 번째 방식 → 인터페이스 구현
     
-    [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ds5ZlU/btrkAuAB0Kg/S5UaDKt9tPJcLoqdsSL9RK/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ds5ZlU/btrkAuAB0Kg/S5UaDKt9tPJcLoqdsSL9RK/img.png)
+    ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ds5ZlU/btrkAuAB0Kg/S5UaDKt9tPJcLoqdsSL9RK/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ds5ZlU/btrkAuAB0Kg/S5UaDKt9tPJcLoqdsSL9RK/img.png)
     
     - 클라이언트는 인터페이스만 알고 있고 실제로 주입되는 것이 뭐인지 모르게 함 → DI 활용
     - 서비스와 레포지토리 모두 AOP로 구현되었다면 런타임 시 의존 관계는 아래와 같은 모습
         
-        [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bxUE4B/btrkAvGisZL/1vup0vS6uxSJyCcPUUTVGK/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bxUE4B/btrkAvGisZL/1vup0vS6uxSJyCcPUUTVGK/img.png)
+        ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bxUE4B/btrkAvGisZL/1vup0vS6uxSJyCcPUUTVGK/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bxUE4B/btrkAvGisZL/1vup0vS6uxSJyCcPUUTVGK/img.png)
         
 - Proxy 를 만드는 두 번째 방식 → 구체클래스 상속
     
-    https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b73aMd/btrkuIUU9lt/OBHCHKkGEw7Rv7ZPzQDhUK/img.png
+    ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b73aMd/btrkuIUU9lt/OBHCHKkGEw7Rv7ZPzQDhUK/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b73aMd/btrkuIUU9lt/OBHCHKkGEw7Rv7ZPzQDhUK/img.png)
     
     - 프록시는 구체 클래스를 상속받으면서 동시에 필드로도 가지고 있어야 함
         - 핵심 기능은 타겟에게 위임하기 때문
@@ -124,7 +124,7 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
 
 ### 웹 서버 vs HTTP 서버
 
-[https://velog.velcdn.com/images/kdhyo/post/65c93d6d-13e2-4e68-91c3-feed25e702bb/다운로드.jpg](https://velog.velcdn.com/images/kdhyo/post/65c93d6d-13e2-4e68-91c3-feed25e702bb/다운로드.jpg)
+![https://velog.velcdn.com/images/kdhyo/post/65c93d6d-13e2-4e68-91c3-feed25e702bb/다운로드.jpg](https://velog.velcdn.com/images/kdhyo/post/65c93d6d-13e2-4e68-91c3-feed25e702bb/다운로드.jpg)
 
 - 웹 서버
     - 웹 서버 소프트웨어와 웹 사이트의 구성 요소 파일을 저장하는 컴퓨터
@@ -176,7 +176,7 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
 
 ### 대칭키
 
-[https://velog.velcdn.com/images/gs0351/post/e6ba5378-7c0d-4e3b-9106-1ce0055bb1b3/image-20201228143331890.png](https://velog.velcdn.com/images/gs0351/post/e6ba5378-7c0d-4e3b-9106-1ce0055bb1b3/image-20201228143331890.png)
+![https://velog.velcdn.com/images/gs0351/post/e6ba5378-7c0d-4e3b-9106-1ce0055bb1b3/image-20201228143331890.png](https://velog.velcdn.com/images/gs0351/post/e6ba5378-7c0d-4e3b-9106-1ce0055bb1b3/image-20201228143331890.png)
 
 - 암복호화에 사용하는 키 동일
 - 암호화 속도가 빠름
@@ -186,7 +186,7 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
 
 ### 공개키
 
-[https://velog.velcdn.com/images/gs0351/post/f8e3eb30-2eda-47ac-954e-915515066bbc/image-20201228143511804.png](https://velog.velcdn.com/images/gs0351/post/f8e3eb30-2eda-47ac-954e-915515066bbc/image-20201228143511804.png)
+![https://velog.velcdn.com/images/gs0351/post/f8e3eb30-2eda-47ac-954e-915515066bbc/image-20201228143511804.png](https://velog.velcdn.com/images/gs0351/post/f8e3eb30-2eda-47ac-954e-915515066bbc/image-20201228143511804.png)
 
 - 암복호화에 사용하는 키 다름
 - 속도가 느림
@@ -222,15 +222,15 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
 - WebSocket 통신 단계
     1. HTTP에 Upgrade라는 헤더를 포함해서 WebSocket을 사용할 것이라고 명시 → Protocol Handshake
         
-        [https://velog.velcdn.com/images/morion002/post/5489a3b4-c75c-437b-80e2-790d46b3c129/image.png](https://velog.velcdn.com/images/morion002/post/5489a3b4-c75c-437b-80e2-790d46b3c129/image.png)
+        ![https://velog.velcdn.com/images/morion002/post/5489a3b4-c75c-437b-80e2-790d46b3c129/image.png](https://velog.velcdn.com/images/morion002/post/5489a3b4-c75c-437b-80e2-790d46b3c129/image.png)
         
     2. 이후 서버에서 사용해도 된다며 100 번대  Handshake 응답을 보내고 웹소켓을 사용하기 위한 준비 단계 돌입
         
-        [https://velog.velcdn.com/images/morion002/post/9b3a4b7c-6e7a-4fbf-9ac5-ff46d3508f0e/image.png](https://velog.velcdn.com/images/morion002/post/9b3a4b7c-6e7a-4fbf-9ac5-ff46d3508f0e/image.png)
+        ![https://velog.velcdn.com/images/morion002/post/9b3a4b7c-6e7a-4fbf-9ac5-ff46d3508f0e/image.png](https://velog.velcdn.com/images/morion002/post/9b3a4b7c-6e7a-4fbf-9ac5-ff46d3508f0e/image.png)
         
     3. 이후 연결이 종료될 때까지 양방향 통신
         
-        [https://velog.velcdn.com/images/morion002/post/4c16b926-02fd-47fc-ac71-ff38a7476211/image.png](https://velog.velcdn.com/images/morion002/post/4c16b926-02fd-47fc-ac71-ff38a7476211/image.png)
+        ![https://velog.velcdn.com/images/morion002/post/4c16b926-02fd-47fc-ac71-ff38a7476211/image.png](https://velog.velcdn.com/images/morion002/post/4c16b926-02fd-47fc-ac71-ff38a7476211/image.png)
         
 
 ### Socket
@@ -242,7 +242,7 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
 
 ### Socket의 실행 흐름
 
-!https://velog.velcdn.com/images/rhdmstj17/post/323aa1d3-4338-4cfe-9edf-45c1f3113e9d/image.png
+![https://velog.velcdn.com/images/rhdmstj17/post/323aa1d3-4338-4cfe-9edf-45c1f3113e9d/image.png](https://velog.velcdn.com/images/rhdmstj17/post/323aa1d3-4338-4cfe-9edf-45c1f3113e9d/image.png)
 
 **클라이언트 입장**
 
