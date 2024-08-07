@@ -436,7 +436,7 @@
 | 주차 | 베스트 워크북 | 딥다이브 |
 | --- | --- | --- |
 | 1 | [조희수](https://github.com/CS-Wizards/CS/blob/main/week1/huisu/summary.md) | [JVM](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK1/huisu.md) |
-| 2 | [정혜선]([https://github.com/chunghye9](https://github.com/CS-Wizards/CS/blob/main/week2/hyeseon/summary.md)8) | [Spring 동작 원리](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK2/hyeseon.md) |
+| 2 | [정혜선]([https://github.com/chunghye9](https://github.com/CS-Wizards/CS/blob/main/week2/hyeseon/summary.md) | [Spring 동작 원리](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK2/hyeseon.md) |
 | 3 |  |  |
 | 4 |  |  |
 | 5 |  |  |
