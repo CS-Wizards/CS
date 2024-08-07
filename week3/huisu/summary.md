@@ -320,7 +320,7 @@ public class CategoriesExistValidator implements ConstraintValidator<ExistCatego
 
 ### 3-way Handshake
 
-[https://velog.velcdn.com/images/devharrypmw/post/b51e0e6d-be93-418c-9429-3ac6d9227a40/image.gif](https://velog.velcdn.com/images/devharrypmw/post/b51e0e6d-be93-418c-9429-3ac6d9227a40/image.gif)
+![https://velog.velcdn.com/images/devharrypmw/post/b51e0e6d-be93-418c-9429-3ac6d9227a40/image.gif](https://velog.velcdn.com/images/devharrypmw/post/b51e0e6d-be93-418c-9429-3ac6d9227a40/image.gif)
 
 - 클라이언트에서 서버에 연결 요청을 하기 위해 SYN 데이터 전송
 - 서버에서 해당 포트가 listen() 상태로 SYN 데이터를 받고 SYN_RCV로 상태가 변경
