@@ -430,7 +430,7 @@
 | --- | --- | --- |
 | 1 | [조희수](https://github.com/CS-Wizards/CS/blob/main/week1/huisu/summary.md) | [JVM](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK1/huisu.md) |
 | 2 | [정혜선](https://github.com/CS-Wizards/CS/blob/main/week2/hyeseon/summary.md) | [Spring 동작 원리](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK2/hyeseon.md) |
-| 3 |  | [QUIC](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK3/kim.md) |
+| 3 |   [정혜선](https://github.com/CS-Wizards/CS/blob/main/week3/hyeseon/summary.md)| [QUIC](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK3/kim.md) |
 | 4 |  |  |
 | 5 |  |  |
 | 6 |  |  |
