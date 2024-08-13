@@ -205,7 +205,9 @@
     - HTTP는 Stateless 구조를 채택 이유
     - Connectionless의 성능 해결 방법
     - TCP의 keep-alive와 HTTP의 keep-alive의 차이
+      
 - 5주차
+  
     **라우터 내의 포워딩 과정**
     
     - 라우팅과 포워딩의 차이
