@@ -85,7 +85,8 @@
 - **SYN**: 클라이언트가 서버에 연결 요청.
 - **SYN-ACK**: 서버가 클라이언트의 요청을 수락하고 연결 승인.
 - **ACK**: 클라이언트가 서버에 연결 승인.
-
+  
+![image](https://github.com/user-attachments/assets/caff8ada-ad97-4263-93d5-a26178b52e1a)
 ## 16. ACK, SYN 정보 전달 방식
 - TCP 패킷의 헤더를 통해 전달.
 
