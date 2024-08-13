@@ -30,10 +30,11 @@ DNS
 21.DNS는 몇 계층 프로토콜
 7계층 애플리케이션 계층에 속하는 프로토콜이다. 
 애플리케이션 계층은 사용자와 직접 상호작용하는 프로토콜들이 위치하는 계층으로, DNS 외에도 HTTP, FTP, SMTP와 같은 다양한 프로토콜들이 있습니다.
+
 22.UDP와 TCP 중 사용하는 프로토콜
 DNS는 주로 UDP를 사용하지만, 데이터 크기나 보안의 필요성에 따라 TCP도 사용될 수 있습니다.
-23.DNS Recursive Query, Iterative Query
 
+23.DNS Recursive Query, Iterative Query
 Recursive queries의 경우에는 local Host가 naver.com에 대해 query를 보내면 Local DNS server가 root name server에 query를 보내고, root server는 자신의 server에 등록되어 있는지 검사한 다음 없으면 com 담당 서버에 요청을 한다. recursive하게 실제 domain name을 가지고 있는 server까지 query가 이동하여 IP 주소를 얻는 방법이다. 이러한 방법은 root server에 너무 큰 부담을 준다는 단점이 있다.
 
 ![image](https://github.com/user-attachments/assets/2a44942c-1b1a-4633-8147-e7ac2c7dae4f)
