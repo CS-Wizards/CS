@@ -33,9 +33,13 @@ DNS
 22.UDP와 TCP 중 사용하는 프로토콜
 DNS는 주로 UDP를 사용하지만, 데이터 크기나 보안의 필요성에 따라 TCP도 사용될 수 있습니다.
 23.DNS Recursive Query, Iterative Query
+
 Recursive queries의 경우에는 local Host가 naver.com에 대해 query를 보내면 Local DNS server가 root name server에 query를 보내고, root server는 자신의 server에 등록되어 있는지 검사한 다음 없으면 com 담당 서버에 요청을 한다. recursive하게 실제 domain name을 가지고 있는 server까지 query가 이동하여 IP 주소를 얻는 방법이다. 이러한 방법은 root server에 너무 큰 부담을 준다는 단점이 있다.
+
 ![image](https://github.com/user-attachments/assets/2a44942c-1b1a-4633-8147-e7ac2c7dae4f)
+
 Iterative queries의 경우에는 Host가 naver.com에 대해 query를 보내면 Local DNS server가 root name server에 query를 보내 com담당 server의 주소를 return 받고, 다시 com 담당 server에 query를 보내 naver.com이 변환 요청을 보낸다. 이렇게 최종 IP 주소를 받을 때까지 요청 &응답을 계속해서 local name server가 반복하는 방법이다.
+
 ![image](https://github.com/user-attachments/assets/4553d766-88b7-40de-92fa-e363b096c85e)
 24.DNS 쿼리 과정에서 손실이 발생할 경우 처리 방법
 25.캐싱된 DNS 쿼리가 잘못 될 경우 에러 보장 방법
