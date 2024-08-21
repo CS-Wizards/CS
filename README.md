@@ -32,14 +32,14 @@
 | 2 | 7/31 | Java & Spring | [정혜선](https://github.com/chunghye98) |
 | 3 | 8/7 | Network | 김성일 |
 | 4 | 8/14 | Network | [문인규](https://github.com/InGyu-Moon) |
-| 5 | 8/21 | Network, Database | [황인준](https://github.com/InJun2) |
-| 6 | 8/28 | Network, Operating System | 진성일 |
+| 5 | 8/21 | Network, Database | 진성일 |
+| 6 | 8/28 | Network, Operating System | [황인준](https://github.com/InJun2) |
 | 7 | 9/4 | Operating System | [조희수](https://github.com/ranunclulus) |
 | 8 | 9/11 | Operating System | [정혜선](https://github.com/chunghye98) |
 | 9 | 9/25 | ETC | 김성일 |
 | 10 | 10/2 |  | [문인규](https://github.com/InGyu-Moon) |
-| 11 | 10/16 |  | [황인준](https://github.com/InJun2) |
-| 12 | 10/23 |  | 진성일 |
+| 11 | 10/16 |  | 진성일 |
+| 12 | 10/23 |  | [황인준](https://github.com/InJun2) |
 - 1주차
     
     **JVM**
@@ -246,7 +246,7 @@
     - 외래키와 인덱스의 차이
     - 인덱스가 데이터의 물리적 저장에 미치는 영향과 데이터가 저장되는 방식
     - RDB와 NoSQL (ex. Redis, MongoDB 등) 인덱스 차이
-- 5주차
+
     **정규화**
     
     - 정규화를 하지 않을 경우, 발생할 수 있는 이상현상에 대해 설명해 주세요.
@@ -267,7 +267,7 @@
     - 가끔은 인덱스를 타는 쿼리임에도 Table Full Scan 방식으로 동작하는 경우가 있습니다. 왜 그럴까요?
     - COUNT (개수를 세는 쿼리) 는 어떻게 동작하나요? COUNT(1), COUNT(*), COUNT(column) 의 동작 과정
 
-    
+ - 7주차   
     **세그멘테이션과 페이징의 차이점은 무엇인가요?**
     
     - 페이지와 프레임의 차이
@@ -433,8 +433,8 @@
 | 1 | [조희수](https://github.com/CS-Wizards/CS/blob/main/week1/huisu/summary.md) | [JVM](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK1/huisu.md) |
 | 2 | [정혜선](https://github.com/CS-Wizards/CS/blob/main/week2/hyeseon/summary.md) | [Spring 동작 원리](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK2/hyeseon.md) |
 | 3 |   [정혜선](https://github.com/CS-Wizards/CS/blob/main/week3/hyeseon/summary.md)| [QUIC](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK3/kim.md) |
-| 4 |  |  |
-| 5 |  |  |
+| 4 |[김성일](https://github.com/CS-Wizards/CS/blob/main/week4/kim/summary.md) & [문인규](https://github.com/CS-Wizards/CS/blob/main/week4/ingyu/summary.md)| [Virtual Thread](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK4/ingyu.md) |
+| 5 |  | [InnoDB](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK5/jin.md) |
 | 6 |  |  |
 | 7 |  |  |
 | 8 |  |  |
