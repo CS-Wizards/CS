@@ -54,11 +54,17 @@ InnoDB에서는 앞서 언급한 상황을 해결하기 위해, InnoDB Adative H
 
 ![image](https://github.com/user-attachments/assets/4b12c38f-81c2-41f2-8aee-c6fd61f7896a)
 
+## 스토리지 엔진 특징
+
 ![image](https://github.com/user-attachments/assets/ab439605-e12d-4012-91d1-e8596a2eda42)
 ![image](https://github.com/user-attachments/assets/79ed3ef5-aa4e-4378-8a54-69bb2aaef9b9)
-## 스토리지 엔진 특징
+
+
 버퍼풀은 변경된 데이터가 디스크에 반영되기 전까지 잠시 머무르는 공간이고 언두는 변경되기 이전 데이터를 백업 해두는 공간입니다.
-이 상태에서 다른 트랜잭션이 레코드를 조회하면 데이터 베이스에 설정된 트랜잭션 격리 수준에 따라 부르는 데이터가 다릅니다. 격리 수준이 read_uncommitted라면 버퍼풀을 참고하고 그게 아니면 언두로그를 참고합니다. 이렇게 트랜잭션 격리 레벨에 따라서 조회되는 데이터가 달라지게 하는 기술을 MVCC라고 합니다.
+
+이 상태에서 다른 트랜잭션이 레코드를 조회하면 데이터 베이스에 설정된 트랜잭션 격리 수준에 따라 부르는 데이터가 다릅니다. 
+
+격리 수준이 read_uncommitted라면 버퍼풀을 참고하고 그게 아니면 언두로그를 참고합니다. 이렇게 트랜잭션 격리 레벨에 따라서 조회되는 데이터가 달라지게 하는 기술을 MVCC라고 합니다.
 
 ![image](https://github.com/user-attachments/assets/b6337bef-c26e-4eb7-adb4-5172a2fd1760)
 ## In-Memory Structures
