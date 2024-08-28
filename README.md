@@ -280,7 +280,7 @@
     - 동기이면서 논블로킹이고, 비동기이면서 블로킹인 경우의 의미
     - I/O 멀티플렉싱에
     - 논블로킹 I/O를 수행한다고 하면 결과 수신 방법
-- 6주차
+- 7주차
     **쿠키와 세션의 차이에 대해 설명**
     
     - 세션 방식의 로그인 과정
@@ -301,12 +301,7 @@
     - POST와 PUT, PATCH의 차이
     - HTTP 1.1 이후로, GET에도 Body에 데이터를 실을 수 있게 되었음에도 왜 아직도 이런 방식을 지양하는가
 
-    
-    **시스템 콜**
-    
-    - socket(), bind(), listen(), accept()
-    - 시스템 콜의 실행 과정
-    - 유저 모드 vs 커널 모드
+
     
     **인터럽트**
     
@@ -314,6 +309,7 @@
     - 인터럽트 처리 방식
     - Polling 방식
     - 동시에 두 개의 인터럽트가 발생한다면?
+
     
     **프로세스**
     
@@ -323,7 +319,7 @@
     - 데몬 프로세스
     - 자식 프로세스가 상태를 알리지 않고 죽거나 부모 프로세스가 먼저 소멸된다면?
     - 리눅스에서 프로세스 트리의 루트 노드에 위치하는 프로세스
-- 7주차
+- 8주차
     **프로세스 주소 공간**
     
     - 초기화하지 않은 변수가 저장되는 곳
@@ -356,36 +352,6 @@
     - 동시성 vs 병렬성
     - 타 스케쥴러와 비교하여, Multi-level Feedback Queue가 해결하는 문제점
     - 스레드의 스케줄링 알고리즘
-    
-    **데드락**
-    
-    - 데드락이 동작하기 위한 4가지 조건
-    - 조건이 충족되지 않았을 때 데드락이 작동하지 않는 이유
-    - 데드락 예방 방법
-    - 현대 os가 데드락을 처리하지 않는 이유
-    
-    **프로그램이 컴파일되어 실행되는 과정**
-    
-    - 링커 vs 로더
-    - 컴파일 언어 vs 인터프리터 언어
-- 8주차
-    **캐시 메모리 및 메모리 계층성에 대해 설명해 주세요.**
-    
-    - 캐시 메모리의 위치
-    - L1, L2 캐시에 대해 설명해 주세요.
-    - 캐시에 올라오는 데이터는 관리법
-    - 캐시간의 동기화
-    - 캐시 메모리의 Mapping 방식
-    - 캐시의 지역성
-    - 캐시의 지역성을 기반으로, 이차원 배열을 가로/세로로 탐색했을 때의 성능 차이
-    
-    **가상 메모리란 무엇인가요?**
-    
-    - 가상 메모리가 가능한 이유
-    - Page Fault가 발생했을 때 처리법
-    - 페이지 크기에 대한 Trade-Off
-    - 페이지 크기가 커지면, 페이지 폴트가 더 많이 발생하는가
-    - 세그멘테이션 방식을 사용하고 있다면, 가상 메모리를 사용할 수 없는가
 
     
     **가상화가 무엇이고, 이것이 가상머신과 어떠한 차이가 있는지 설명해 주세요.**
@@ -393,39 +359,7 @@
     - 그렇다면 Docker는 둘 중 어디에 속하나요? 왜 사람들이 Docker를 많이 채택할까요?
     - 하나의 Host OS에서 돌아간다면 충분히 한 컨테이너가 다른 컨테이너에 간섭할 수 있는 위험이 있지 않을까요? 이를 어떻게 방어할 수 있을까요?
     - Docker 위에 Docker를 올릴 순 없을까요?
-    
-    **CI/CD**
-    
-    **static 키워드**
-    
-    - 컴파일 할 때, static 키워드가 붙은 변수, 함수는 어떻게 처리되나요?
-    - Java에서 static과 static final은 어떤 차이를 갖나요? final과 static final은요?
-    
-    **객체지향 프로그래밍**
-    
-    - SOLID 원칙에 대해 설명해 주세요.
-    - 다형성이 무엇인지 설명하고, 동적 다형성과 정적 다형성이 무엇인지 설명해 주세요.
-    - 오버로딩과 오버라이딩의 차이에 대해 설명해 주세요.
-    - 클래스가 있는 언어는 반드시 객체지향 언어라고 할 수 있을까요? 그 반대는 성립하나요?
-- 9주차
-    **프레임워크와 라이브러리의 차이**
-    
-    **Call By Value와 Call By Reference의 차이를 본인의 언어를 기반으로 설명**
-    
-    **순수함수가 무엇인지를 함수형 프로그래밍 매커니즘과 연관지어 설명해 주세요.**
-    
-    - Side Effect가 무엇인가요? 이를 모두 없애는 프로그래밍이 이상적이라고 할 수 있을까요?
-    - 왜 함수형 프로그래밍 매커니즘을 사용한다고 생각하시나요?
-    - 순수함수는 Thread Safe 한가요? 왜 그럴까요?
-    - 고차함수에 대해 설명해 주세요.
-    
-    **MVC 패턴**
-    
-    **인증과 인가의 차이**
-    
-- 10주차
-- 11주차
-- 12주차
+
 
 ## 🍈 명예의 전당
 
@@ -435,14 +369,11 @@
 | 2 | [정혜선](https://github.com/CS-Wizards/CS/blob/main/week2/hyeseon/summary.md) | [Spring 동작 원리](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK2/hyeseon.md) |
 | 3 |   [정혜선](https://github.com/CS-Wizards/CS/blob/main/week3/hyeseon/summary.md)| [QUIC](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK3/kim.md) |
 | 4 |[김성일](https://github.com/CS-Wizards/CS/blob/main/week4/kim/summary.md) & [문인규](https://github.com/CS-Wizards/CS/blob/main/week4/ingyu/summary.md)| [Virtual Thread](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK4/ingyu.md) |
-| 5 |  | [InnoDB](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK5/jin.md) |
+| 5 |[김성일](https://github.com/CS-Wizards/CS/blob/main/week5/kim/summary.md)  | [InnoDB](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK5/jin.md) |
 | 6 |  |  |
 | 7 |  |  |
 | 8 |  |  |
 | 9 |  |  |
-| 10 |  |  |
-| 11 |  |  |
-| 12 |  |  |
 
 ## 🥥 브랜치와 커밋
 
