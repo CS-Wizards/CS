@@ -362,7 +362,7 @@
 | 3 |   [정혜선](https://github.com/CS-Wizards/CS/blob/main/week3/hyeseon/summary.md)| [QUIC](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK3/kim.md) |
 | 4 |[김성일](https://github.com/CS-Wizards/CS/blob/main/week4/kim/summary.md) & [문인규](https://github.com/CS-Wizards/CS/blob/main/week4/ingyu/summary.md)| [Virtual Thread](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK4/ingyu.md) |
 | 5 |[김성일](https://github.com/CS-Wizards/CS/blob/main/week5/kim/summary.md)  | [InnoDB](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK5/jin.md) |
-| 6 |황인준](https://github.com/CS-Wizards/CS/blob/main/week6/injun/summary.md)  | [DB Rock](https://github.com/InJun2/TIL/blob/main/CS-topic/DB/Lock.md) |
+| 6 |[황인준](https://github.com/CS-Wizards/CS/blob/main/week6/injun/summary.md)  | [DB Rock](https://github.com/InJun2/TIL/blob/main/CS-topic/DB/Lock.md) |
 | 7 |  | [JPA](https://github.com/CS-Wizards/CS/blob/main/Special/WEEK7/huisu.md) |
 | 8 |  |  |
 
