@@ -36,10 +36,7 @@
 | 6 | 8/28 | Network, Operating System | [황인준](https://github.com/InJun2) |
 | 7 | 9/4 | Operating System | [조희수](https://github.com/ranunclulus) |
 | 8 | 9/11 | Operating System | [정혜선](https://github.com/chunghye98) |
-| 9 | 9/25 | ETC | 김성일 |
-| 10 | 10/2 |  | [문인규](https://github.com/InGyu-Moon) |
-| 11 | 10/16 |  | 진성일 |
-| 12 | 10/23 |  | [황인준](https://github.com/InJun2) |
+
 - 1주차
     
     **JVM**
